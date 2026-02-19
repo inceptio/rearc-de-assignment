@@ -1,0 +1,4 @@
+cd terraform
+export AWS_PROFILE=rearc
+terraform init
+terraform apply -var="bucket_name=rearc-assignment-bls"
